@@ -1,0 +1,242 @@
+
+html{
+   background-color: #072040;
+}
+html, body {
+   height:100%;
+   font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+   margin: 0;
+   overflow: hidden;
+}
+Body{
+   background-color: #ffffff;
+}
+nav{
+   background-color: #072040 ;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   position: sticky;
+   font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.Vis{
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+   overflow-y: hidden;
+   height: 600px;
+   width: 1920px;
+   margin: 0;
+   padding: auto;
+}
+
+.text{
+   display: flex;
+   justify-content: left;
+   margin-left: 10px;
+   padding-left: 10px;
+}
+
+.navbar a{
+   text-decoration: 0;
+   color: #ffffff;
+}
+
+.navbar .logo {
+   display: block;
+   color: #ffffff;
+   padding: 0 24px;
+   font-size: 24px;
+ }
+
+.navbar ul{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+
+}
+
+.navbar ul li a {
+display: flex ;
+padding: 24px;
+}
+
+.navbar #active {
+   background-color: #ffffff;
+   color: #111;
+}
+
+.navbar li a:focus,
+.navbar a:hover {
+   animation-name: fade;
+   animation-duration: 0.5s;
+   background-color: #ffffff;
+   color: #111;
+}
+
+@keyframes fade {
+   from {
+       background-color: #072040;
+   }
+
+   to {
+       background-color: #ffffff;
+   }
+
+   from {
+       color: #fff;
+   }
+
+   to {
+       color: #111;
+   }
+}
+
+body {
+   background-color: #f0f0f0;
+   overflow-y: auto;
+}
+
+footer{
+   background-color: #072040 ;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   padding-top: 2em;
+   margin-top: 2em;
+   height:auto;
+}
+
+footer ul{
+   text-decoration: 0;
+   list-style-type: none;
+}
+
+footer a{
+   text-decoration: 0;
+   color: white; 
+   margin-top: auto; 
+   padding-top: auto;
+}
+
+.card {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 60px;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   display: flex;
+   align-items: center;
+ }
+ 
+ .card-image {
+   display: inline-block;
+   width: 400px; 
+   padding: 10px;
+ }
+ 
+ .card-image img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .card a h2 p {
+   display: inline-block;
+   padding: 10px;
+ }
+ 
+ .card h2 {
+   font-size: 22px;
+   margin: 0;
+ }
+ 
+ .card p {
+   font-size: 18px;
+   margin-top: 10px;
+ }
+ 
+ .card a {
+   text-decoration: none;
+   color: #007bff;
+   font-weight: bold;
+   display: block;
+   margin-top: 10px;
+ }
+ 
+.card #active {
+   background-color: #D7263D;
+   color: #fff;
+}
+
+.card:focus,
+.card:hover {
+   animation-name: fade1;
+   animation-duration: 0.5s;
+   background-color: #c7daf4;
+   color: #111;
+}
+
+@keyframes fade1 {
+   from {
+       background-color: #ffffff;
+   }
+
+   to {
+       background-color: #c7daf4;
+   }
+
+   from {
+       color: #fff;
+   }
+
+   to {
+       color: #111;
+   }
+}
+
+#error{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+.mainB{
+   display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+}
+.cardB {
+   margin: 0;
+   padding: 20px;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   justify-content:center ;
+   height: 100%;
+   width: 600px;
+   background-color: #ffffff; /* Set your desired background color */
+   box-shadow: 0 0 10px #787575;
+ 
+ }
+ 
+ .card-imageB {
+   display: inline-block;
+   width: fit-content; 
+   padding: 10px;
+   max-width: 100% ;
+ }
+ 
+ .card-imageB img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ 
